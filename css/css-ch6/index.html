@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Profile</title>
+</head>
+<body>
+
+  <header>
+    <h1>Your Name</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+  <div class="hero">
+      <h1>Welcome to Our Website</h1>
+      <p>Discover amazing content and join our community.</p>
+      <button class="cta">Get Started</button>
+  </div>
+
+  <h2>My Profile</h2>
+  <p>Hello! My name is <strong>Your Name</strong>. I am a <em>[your profession/education]</em>. I enjoy various activities, and one of my favorite hobbies is <span style="font-weight: bold; color: blue;">[your hobby]</span>. In my free time, I love to explore more about it!</p>
+  <p>For more information, visit my favorite website: <a href="https://www.yourfavoritewebsite.com" target="_blank">Your Favorite Website</a>.</p>
+  <p>Feel free to <a href="mailto:yourname@example.com">contact me</a> anytime!</p>
+
+<h2>Contact Me</h2>
+<form action="submit_form.php" method="POST">
+  <label for="name">First Name:</label><br>
+  <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+
+  <label for="name">Family Name:</label><br>
+  <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+  
+  <label for="email">Email:</label><br>
+  <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+  
+  <label for="inquiryType">Inquiry Type:</label><br>
+  <select id="inquiryType" name="inquiryType">
+    <option value="general">General Inquiry</option>
+    <option value="support">Support</option>
+    <option value="feedback">Feedback</option>
+  </select><br><br>
+  
+  <label for="message">Message:</label><br>
+  <textarea id="message" name="message" rows="4" cols="50" placeholder="Enter your message" required></textarea><br><br>
+  
+  <button type="submit">Submit</button>
+</form>
+</main>
+
+<footer>
+  <p>© 2023 My Personal Profile</p>
+</footer>
+
+</body>
+</html>

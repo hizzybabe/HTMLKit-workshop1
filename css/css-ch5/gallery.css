@@ -1,0 +1,39 @@
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2%;
+}
+
+.gallery-item {
+    width: 30%;
+    margin: 1vw;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+}
+
+/* Default layout for larger screens */
+.gallery-item {
+    width: 30%;
+}
+
+/* Medium screens (tablets) */
+@media (max-width: 1024px) {
+    .gallery-item {
+        width: 45%;
+    }
+}
+
+/* Small screens (mobiles) */
+@media (max-width: 767px) {
+    .gallery-item {
+        width: 100%;
+    }
+}
+
+.gallery-item p {
+    font-size: 1rem;
+    padding: 0.5em;
+}

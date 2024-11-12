@@ -1,0 +1,90 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+section {
+    padding: 3rem;
+    text-align: center;
+    max-width: 800px;
+    margin: auto;
+}
+
+#hero {
+    background-color: #4CAF50;
+    color: white;
+    padding: 4rem 2rem;
+}
+
+#hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+#hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.btn-primary {
+    text-decoration: none;
+    color: white;
+    background-color: #333;
+    padding: 0.8rem 1.5rem;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+#features {
+    background-color: #f9f9f9;
+    padding-top: 3rem;
+}
+
+#features h2 {
+    color: #4CAF50;
+    margin-bottom: 1.5rem;
+}
+
+.feature {
+    margin-bottom: 2rem;
+}
+
+.feature h3 {
+    font-size: 1.4rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+#testimonials {
+    background-color: #f0f0f0;
+}
+
+.testimonial {
+    margin-bottom: 2rem;
+    font-style: italic;
+}
+
+#cta {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#cta h2 {
+    margin-bottom: 1rem;
+}
+
+footer {
+    text-align: center;
+    padding: 1.5rem;
+    background-color: #333;
+    color: white;
+    margin-top: 2rem;
+}
